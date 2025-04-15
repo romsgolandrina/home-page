@@ -14,7 +14,7 @@ const Services = () => {
         </h1>
         <div className="w-[1200px] h-[400px] flex flex-row items-center justify-between gap-2">
           <img
-            src="../src/assets/roam-in-color-z3QZ6gjGRt4-unsplash.jpg"
+            src={"../src/assets/roam-in-color-z3QZ6gjGRt4-unsplash.jpg"}
             width={600}
             height={500}
             alt="kitchen"
@@ -48,7 +48,7 @@ const Services = () => {
             </p>
           </div>
           <img
-            src="../src/assets/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg"
+            src={"../src/assets/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg"}
             width={600}
             height={500}
             alt="kitchen"
@@ -58,7 +58,7 @@ const Services = () => {
         </div>
         <div className="w-[1200px] h-[400px] flex flex-row items-center justify-between gap-2">
           <img
-            src="../src/assets/amina-atar-MA4aW8ZOzLM-unsplash.jpg"
+            src={"../src/assets/amina-atar-MA4aW8ZOzLM-unsplash.jpg"}
             width={600}
             height={500}
             alt="kitchen"

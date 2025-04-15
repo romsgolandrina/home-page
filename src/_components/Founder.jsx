@@ -11,7 +11,7 @@ const Founder = () => {
       <div className="w-[60%] h-[600px] flex flex-row justify-between items-center rounded-lg">
         <div className="w-1/2">
           <img
-            src="../src/assets/marci-metzger.png"
+            src={"../src/assets/marci-metzger.png"}
             width={450}
             height={450}
             alt="avatar"
