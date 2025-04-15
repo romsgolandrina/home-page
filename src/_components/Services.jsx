@@ -1,6 +1,9 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Pic1 from "../assets/roam-in-color-z3QZ6gjGRt4-unsplash.jpg";
+import Pic2 from "../assets/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg";
+import Pic3 from "../assets/amina-atar-MA4aW8ZOzLM-unsplash.jpg";
 
 const Services = () => {
   useEffect(() => {
@@ -14,7 +17,7 @@ const Services = () => {
         </h1>
         <div className="w-[1200px] h-[400px] flex flex-row items-center justify-between gap-2">
           <img
-            src={"../src/assets/roam-in-color-z3QZ6gjGRt4-unsplash.jpg"}
+            src={Pic1}
             width={600}
             height={500}
             alt="kitchen"
@@ -48,7 +51,7 @@ const Services = () => {
             </p>
           </div>
           <img
-            src={"../src/assets/frames-for-your-heart-mR1CIDduGLc-unsplash.jpg"}
+            src={Pic2}
             width={600}
             height={500}
             alt="kitchen"
@@ -58,7 +61,7 @@ const Services = () => {
         </div>
         <div className="w-[1200px] h-[400px] flex flex-row items-center justify-between gap-2">
           <img
-            src={"../src/assets/amina-atar-MA4aW8ZOzLM-unsplash.jpg"}
+            src={Pic3}
             width={600}
             height={500}
             alt="kitchen"

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Avatar from "../assets/marci-metzger.png";
 
 const Founder = () => {
   useEffect(() => {
@@ -11,7 +12,7 @@ const Founder = () => {
       <div className="w-[60%] h-[600px] flex flex-row justify-between items-center rounded-lg">
         <div className="w-1/2">
           <img
-            src={"../src/assets/marci-metzger.png"}
+            src={Avatar}
             width={450}
             height={450}
             alt="avatar"
